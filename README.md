@@ -91,3 +91,41 @@ Passo 6.2 - Para confirmar a modificação é necessário dar um "git commit -m"
 Passo 6.3 - E por fim um "git push" para mandar o documento atualizado para o servidor da GitHub
 
 Passo 7 - Agora você pode verificar no GitHub online que o documento foi atualizado com sucesso
+
+## Criando um "universo paralelo" para editar sem influenciar no codigo já escrito.
+
+Passo 1 - Para criar o branch, iremos chamar esse universo de branch apartir de agora, é nescessario abir o site no repositorio escolhido.
+
+Passo 1.1 - Aberto clicar no quadrado superior esquerdo escrito "main", escreva o nome do branch.
+
+Passo 1.2 - Depois de escrito ira abrir uma opção "Create branch: [nome_do_branch]", clique nessa opção.
+
+Passo 1.3 - Com isso ira criar um espaço novo no diretorio, com a copia de todos os arquivos da "main".
+
+Passo 2 - Agora abra o Git Bash na pasta do repositorio no seu computador.
+
+Passo 2.1 - Primeira coisa é dar o comando Git Pull, com isso o Bash já reconhece o branch.
+
+Passo 2.2 - Para selecionar a branch o comando é "checkout [nome_branch]"
+
+Passo 2.3 - Pronto você esta dentro da branch, tudo que você fizer aqui ficara apenas nessa branch.
+
+Passo 3 - Vamos testar se deu certo, crie um arquivo qualquer, pode ser um "teste.txt".
+
+Passo 3.1 - Vamos adicionar ele usando o "git add .", depois vamos dar o commit para ficar salvo nesse branch, se não fizer esses dois passos o arquivo não tem um branch fixo.
+
+Passo 3.2 - Se os passos foram corretos o arquivo está linkado com um branch, então podemos dar o comando "git checkout main", notou que o arquivo sumiu? Se quiser salvar a alteração não esqueca do push.
+
+Passo 4 - Sempre que quiser editar um arquivo especifico sem alterar o main, ou criar um aquivo sem ter certeza se ira utilizalo volte para qualquer branch e faça o que você precisar sem interferir na principal.
+
+Passo 4.1 - Quando quiser juntar as branch, sim você pode e com isso ira colocar tudo que não tem na principal na principal, abra o site no repositorio.
+
+Passo 4.2 - Nas opçoes supetiores tem o Pull request, clique no Pull requests, na tela aberta clique em new pull requeste.
+
+Passo 4.3 - Na nova tela aparecera uma barrinha, mude as opçôes, nesse exemplo base: main e compare:[nome_branch]
+
+Passo 4.4 - A tela ira mudar mostrando todas as alterações entre um branch e outro, se estiver correto clique em "create pull requeste", se quiser mudar o nome mude se não clique novamente.
+
+Passo 4.5 - Sim outra confirmação, se ficou verdinho clique em "Merge pull request", se não ficou procure mais a fundo na internet, pois tera que arrumar manualmente, acredito que o seu ficou verdinho, e confirma novamente ou muda o muda a descrição.
+
+Passo 5 - Pronto deu certo, volta para a opção Code, esta na barra superior, se 
