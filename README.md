@@ -165,4 +165,4 @@ atualmente)
 
   Mas, qualquer dúvida, procure os gênios da programação da Ilum – Escola de Ciência: Profº Daniel e Profº James, eles com certeza saberão te ajudar! 
   
- # print(“Esperamos que tenha gostado e quepossa te ajudar! Boa sorte nos seus estudos!”)
+ # print(“Esperamos que tenha gostado e que esse manual possa te ajudar! Boa sorte nos seus estudos!”)
