@@ -128,4 +128,4 @@ Passo 4.4 - A tela ira mudar mostrando todas as alterações entre um branch e o
 
 Passo 4.5 - Sim outra confirmação, se ficou verdinho clique em "Merge pull request", se não ficou procure mais a fundo na internet, pois tera que arrumar manualmente, acredito que o seu ficou verdinho, e confirma novamente ou muda o muda a descrição.
 
-Passo 5 - Pronto deu certo, volta para a opção Code, esta na barra superior, se 
+Passo 5 - Pronto deu certo, volta para a opção Code, esta na barra superior, agora você consegue ver que o aquivo esta na brach main.
