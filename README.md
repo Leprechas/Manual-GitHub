@@ -26,10 +26,10 @@ Desenvolvido por:
 
 GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git, ele permite que programadores ou qualquer usuário da plataforma produza códigos abertos, ou não, e contribuam em projetos de outros usuários.
 
-Imagem 1
+<h2 align = "center"><img src="imagem_1.jpeg"</h2>
 
-print("tradução: - wow! Como você conseguiu tudo isso?
-Toda vez que eu mudo uma linha... eu faço UM push!
+print("tradução: - wow! Como você conseguiu tudo isso? "/n"
+Toda vez que eu mudo uma linha... eu faço UM push! "/n"
 Jesus Cristo.")
 
 Não entendeu a tirinha? Aposto que depois deste manual, você vai reler e rir! (Ou ao menos soltar um arzinho pelo nariz). 
@@ -158,7 +158,7 @@ Passo 19 – Pronto, deu certo! Volta para a opção Code, está na barra superi
 
   Esse negócio de “branch” é mesmo meio confuso, e você pode ficar como esse meme:
   
-  Imagem 2
+  <h2 align = "center"><img src="imagem_2.jpeg"</h2>
   
 (tradução: quando eu colega de trabalho pergunta em qual branch do git você está trabalhando
 atualmente)
