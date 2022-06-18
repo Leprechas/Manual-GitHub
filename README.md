@@ -1,3 +1,5 @@
+DRC: gostei bastante da apresentação e linguagem. Muito bom!
+
 # Manual-GitHub
 Desenvolvido por: 
 
@@ -9,6 +11,8 @@ Desenvolvido por:
 
   Vitor E. G. Barelli.
   
+  DRC: ficou muito bom o pdf!
+
   Link para baixar o manual: [Manual GitHub.pdf](https://github.com/Leprechas/Manual-GitHub/files/8881200/Manual.GitHub.pdf)
   
 <h2> Sumário </h2>
@@ -26,10 +30,12 @@ Desenvolvido por:
 
 GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git, ele permite que programadores ou qualquer usuário da plataforma produza códigos abertos, ou não, e contribuam em projetos de outros usuários.
 
+DRC: haha!
+
 <h2 align = "center"><img src="imagem_1.jpeg"</h2>
 
 print("tradução: - wow! Como você conseguiu tudo isso? "/n"
-Toda vez que eu mudo uma linha... eu faço UM push! "/n"
+Toda vez que eu mudo uma linha... eu faço UMA flexão! "/n"
 Jesus Cristo.")
 
 Não entendeu a tirinha? Aposto que depois deste manual, você vai reler e rir! (Ou ao menos soltar um arzinho pelo nariz). 
@@ -50,11 +56,13 @@ Passo 4 - Para iniciar seu repositório, você pode escolher começar com uma pa
 
 Passo 5 - Se você quiser, pode adicionar alguma linguagem de programação no "add .gitignore" e essa linguagem vai ter as bibliotecas e adicionais excluídos para não atrapalhar seu código (resumindo, vai ficar mais bonitinho);
 
-Passo 6 - Em "chosse a license" é onde você pode escolher se o seu código vai ser apenas seu, e seu uso dependerá da sua permissão, ou, você apenas vai liberar seu código para livre uso com direitos autorais, existem alguns termos e responsabilidades dependendo do tipo de licença escolhido. 
+Passo 6 - Em "choose a license" é onde você pode escolher se o seu código vai ser apenas seu, e seu uso dependerá da sua permissão, ou, você apenas vai liberar seu código para livre uso com direitos autorais, existem alguns termos e responsabilidades dependendo do tipo de licença escolhido. 
 
 # print(“Já criei meu repositório, e agora?”)
 
 Vamos editá-lo!
+
+DRC: não seria "add file" ao invés de "create" aqui?
 
 Passo 1 - Seu repositório foi criado, agora vai começar a editar: Após clicar em "create", abrirá uma nova aba automaticamente, nessa aba você terá diversas outras informações, mas, vamos focar no início: clique em "<> code" ali você vai ver a pasta "README.md" criada anteriormente e aí poderemos editar essa pasta!
 
@@ -84,9 +92,11 @@ Passo 3 - Clique em "fork" e a página irá atualizar, você pode alterar o nome
 
 Passo 4 – Abrirá o "fork" feito, ele é semelhante a uma cópia do repositório original. Para colaborar, escolha alguma das pastas ou file e edite algo dentro delas;
 
-Passo 5 - Após editar faça o "commit changes" ou "propose changes" para confirmar sua alteração, clique na aba "pull requests", que seria a edição feita por você para o arquivo, ali, você pode criar e enviar o seu comentário sobre algo clicando em "new pull request" ou comparar com outros comentários e enviar o seu comentário clicando em "compare e pullrequest";
+Passo 5 - Após editar faça o "commit changes" ou "propose changes" para confirmar sua alteração, clique na aba "pull requests", que seria a edição feita por você para o arquivo, ali, você pode criar e enviar o seu comentário sobre algo clicando em "new pull request" ou comparar com outros comentários e enviar o seu comentário clicando em "compare e pull request";
 
-Passo 6 – Agora, basta o dono do arquivo aceitar as mudanças feitas na sua aba do "pullrequest". Mas saiba que: o dono do repositório não vai conseguir aceitar arquivos que deem conflito na hora de atualizar o repositório original, então, sempre se lembre de editar o repositório mais recente.
+DRC: o dono pode resolver o conflito ou sugerir para o criador da pull request resolver o conflito ele mesmo.
+
+Passo 6 – Agora, basta o dono do arquivo aceitar as mudanças feitas na sua aba do "pull request". Mas saiba que: o dono do repositório não vai conseguir aceitar arquivos que deem conflito na hora de atualizar o repositório original, então, sempre se lembre de editar o repositório mais recente.
 
 # print(“Baixando o repositório para a sua máquina, editando e enviando de volta para o servidor do GitHub”)
 
@@ -98,11 +108,17 @@ Passo 2 - Escreva "git status" e clique em enter para confirmar que o painel nã
 
 Passo 3 - Escreva "git clone link" e clique em enter, mas atenção: mas você não vai colocar literalmente "link"! Para colar o link, você usa shift + Insert. Esse link pode ser achado clicando em “code”, que está ao lado de “add file”, verifique se a opção HTTPS está selecionada e clique em algo que parece dois papéis sobrepostos , que é para copiar o link;
 
+DRC: não entendi esse passo 4
+
 Passo 4- Você vai notar que aparecerá um documento na pasta "GitHub", não se preocupe, ele só vai ficar lá enquanto estivermos usando-o;
+
+DRC: pode ser melhor separar o passo 5 em dois: um dizendo que o usuário pode editar os arquivos da forma que quiser e o outro dizendo sobre como navegar na pasta do repositório dentro do git bash.
 
 Passo 5 – Agora, com algum software de sua preferência, pode ser VisualCode, ou outro, você pode abrir e editar o repositório, é importante dar um “cd nome_do_repositório” (esse nome aí é o nome do repositório, não literalmente como está escrito) para indicar o painel que os comandos a seguir devem ser dados em função do seu repositório; 
 
 Passo 6 - Lembre-se que você está editando na sua máquina, logo, se você não fizer nada, o repositório online não será modificado;
+
+DRC: primeiro modificamos, depois damos git add e depois damos git commit. Aqui a ordem ficou invertida.
 
 Passo 7 - Após editar o que quisermos, temos que fazer o mesmo passo que online, o passo de dar um "commit", só que no Git Bash. Você deve escrever “git commit -m "título da edição” (-m = permite você criar uma mensagem para o commit);
 
@@ -117,6 +133,8 @@ Passo 11 - Para verificar se tudo está ocorrendo de forma certa, dê um "git st
 Passo 12 - E, por fim, um "git push" para mandar o documento atualizado para o servidor da GitHub.
   
   Agora você pode verificar no GitHub online que o documento foi atualizado com sucesso! 
+  
+DRC: excelente nome dessa seção!!
 
 # print(“Multiverso da GitLoucura: Criando um “universo paralelo” para editar sem influenciar no seu documento principal!”)
 
@@ -162,6 +180,8 @@ Passo 19 – Pronto, deu certo! Volta para a opção Code, está na barra superi
   
 (tradução: quando eu colega de trabalho pergunta em qual branch do git você está trabalhando
 atualmente)
+
+DRC: heh! Quem dera!
 
   Mas, qualquer dúvida, procure os gênios da programação da Ilum – Escola de Ciência: Profº Daniel e Profº James, eles com certeza saberão te ajudar! 
   
